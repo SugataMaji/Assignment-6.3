@@ -4,13 +4,15 @@ import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { RootComponentComponent } from './root-component/root-component.component';
-import { LoginComponentComponent } from './login/login-component/login-component.component';
+import { LoginComponentComponent } from './login-component/login-component.component';
+import { SubLoginComponent } from './sub-login/sub-login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RootComponentComponent,
-    LoginComponentComponent
+    LoginComponentComponent,
+    SubLoginComponent
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
